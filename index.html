@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class=" light dark ">
+    <header class="header">
+        <div class="container header__container d-flex" >
+            <img src="img/logo.svg" class="logo" alt="logo" width="85" height="30">
+        <div class="d-flex mt-3 divde ps-5">
+            <img src="img/tel.png" alt="rasm" width="15" height="20" class="mb-3">
+            <a href="#" class="text nmadr__text" style="padding-bottom: 16px;">Выбрать модель телефона </a>
+        </div>
+        <img src="img/nmadr.png" alt="korzinka">
+        <div class="div__check">
+            <input type="checkbox" class="check">
+        <label class="label">Dark</label>
+        </div>
+        </div>
+    </header>
+    <div class="intro container intro__container mt-3" >
+            <div class="intro__div d-flex">
+                <h2 class="text22 nmadrr" style="width: 350px; color: white;"> Назад реторический знаках  жаренные.</h2>
+                    <img src="https://picsum.photos/id/990/250/180" alt="13Pro" class="img">
+            </div>
+    </div>
+   <div class="form__container container">
+    <form class="formaa d-flex justify-content-between mt-5">
+        <input type="text" class="form-control product__title me-4 " placeholder="Search">
+        <input type="number" class="product__rating form-control me-4" placeholder="Search Ratings">
+        <select class="select__categories form-select me-4">
+            <option value="All">All</option>
+        </select>
+        <select class="select__high__low form-select me-4">
+            <option>Default</option>
+            <option value="high">Price (high to low )</option>
+            <option value="low">Price (low to high )</option>
+        </select>
+        <button class=" btn btn-primary">Search</button>
+    </form>
+   </div>
+    <main class="main">
+        <section class="section">
+
+            <div class="container mt-5">
+                <h3 class="title" style="color: rgb(0, 26, 255); text-align: right;">Total Count:  <span class="span__num" style="color: Green;"></span></h3>
+                <h3 style="color: gray; margin-bottom: -30px;" class="nmadr__text">Products</h3>
+            <ul class="list-unstyled list">
+        
+            </ul>
+            </div>
+            <div class="modal fade modal-div" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title modal-title" id="staticBackdropLabel">Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body modal-text">
+                    ....
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn  btn-primary">Understood</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+           
+        </section>
+    
+        
+    </main>
+    <footer class="footer">
+        <div class="footer__container container d-flex" style="width: 1054px; align-items: flex-start;">
+            <img src="img/logo.svg" alt="logo" class="footer__logo logo" style="margin-top: 5px;">
+
+            <div class="footer__div">
+                <ul class="footer__list list-unstyled">
+                    <li class="footer__item"><a href="#" class="nmadr__text">Избранное</a></li>
+                    <li class="footer__item"><a href="#" class="nmadr__text">Корзина</a></li>
+                    <li class="footer__item"><a href="#" class="nmadr__text">Контакты</a></li>
+                </ul>
+            </div>
+
+            <ul class="footer__list2 list-unstyled">
+                <li class="footer__item2">
+                    <p class="footer__text">
+                        <a href="#" class="nmadr__text">
+                            Условия сервиса
+                        </a>
+                    </p>
+                </li>
+                <li class="footer__item2">
+                   <p class="text ">
+                    <img src="img/yer.png" alt="" style="padding-bottom: 3px;">
+                    <span class="span nmadr__text" style="padding-left: 10px;">Kaz <span style="color: rgb(233, 161, 27);">Rus</span> Eng</span>
+                   </p>
+                </li>
+            </ul>
+            <div class="footer__img--div">
+                <img src="img/VK.png" alt="vf" style="padding-left: 20px;">
+                <img src="img/Instagram.png" alt="vf" style="padding-left: 20px;">
+                <img src="img/Telegram.png" alt="vf" style="padding-left: 20px;">
+                <img src="img/Whatsapp.png" alt="vf" style="padding-left: 30px;">
+            </div>
+        </div>
+    </footer>
+    
+     <template id="template">
+        <li style=" padding-left: 20px; text-align: left; border: 2px solid blue; margin-top: 50px; width: 350px; border-radius: 10px ;margin-bottom: 50px; margin-right: 20px; padding: 10px;" class="item">
+            <img class="image" style="width: 300px; height: 300px; display: block; margin: 0 auto; border-radius: 10px;  margin-top: 20px" src="https://i.ytimg.com/vi/3vqcMr1q5Uc/mqdefault.jpg">
+            <h4 class="title" style=" margin-top: 20px; color: red; font-size: 20px; font-weight: 700;"></h4>
+            <div class="nma_gap">
+            <p  style=" font-size: 25px; font-weight: 500; display: flex;"><img src="img/zvezda.svg" alt="yulduz">  <span class="text1"></span> </p>
+            <p style=" font-size: 25px; font-weight: 500;"> <strong>Price:</strong> <span class="text2"></span></p>
+            <p style=" font-size: 25px; font-weight: 500; display: block;"><strong>Category:</strong> <span class="text3"></span></p>
+            <button type="button" class="btn btn-modal btn-outline-info mb-3" data-bs-toggle="modal" id="modal" data-bs-target="#staticBackdrop">More info</button>
+       </div>
+    </li>
+    </template>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
